@@ -1,8 +1,7 @@
-package com.example.acenutition.restaurants
+package com.example.Paging.restaurants
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.appbar.CollapsingToolbarLayout
 import kotlinx.android.synthetic.main.activity_main.*
 import android.util.Log
@@ -11,25 +10,16 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.acenutition.R
+import com.example.Paging.R
 import com.example.mvvmpagingtutorial.data.api.AceNutritionClient
-import com.google.android.material.bottomsheet.BottomSheetBehavior
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 import android.view.View
-import androidx.annotation.NonNull
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import kotlinx.android.synthetic.main.bottom_sheet_layout.*
-import kotlinx.android.synthetic.main.rc_review.*
-import androidx.core.app.ComponentActivity.ExtraData
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import android.view.ViewGroup
 import android.widget.Toast
-import androidx.constraintlayout.widget.ConstraintLayout
-import com.example.acenutition.restaurants.adapter.BottomSheetFilterAdapter
-import com.example.acenutition.restaurants.callback.OnFilterTypeClickListener
-import kotlinx.android.synthetic.main.rc_restaurant_overview.*
+import com.example.Paging.extension.isGPSEnabled
+import com.example.Paging.extension.showToastMessage
+import com.example.Paging.restaurants.adapter.BottomSheetFilterAdapter
+import com.example.Paging.restaurants.callback.OnFilterTypeClickListener
 
 
 class MainActivity : AppCompatActivity(), OnFilterTypeClickListener {
@@ -62,6 +52,8 @@ class MainActivity : AppCompatActivity(), OnFilterTypeClickListener {
             filterAdapter.notifyDataSetChanged()
             bottemSheetDialog.show()
         }
+
+        showToastMessage(isGPSEnabled().toString())
 
         val apiService = AceNutritionClient.getClient()
 

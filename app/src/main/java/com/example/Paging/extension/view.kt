@@ -1,7 +1,14 @@
-package com.example.acenutition.extension
+package com.example.Paging.extension
 
-import android.graphics.drawable.Drawable
-import com.example.acenutition.R
+import android.content.Context
+import com.example.Paging.R
+import android.location.LocationManager.GPS_PROVIDER
+import android.content.Context.LOCATION_SERVICE
+import android.location.LocationManager
+import android.widget.Toast
+import androidx.core.content.ContextCompat.getSystemService
+
+
 
 
 class view{
@@ -28,6 +35,8 @@ class view{
             return 0
         }
     }
+
+
 
 }
 

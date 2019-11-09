@@ -1,4 +1,4 @@
-package com.example.acenutition.restaurants.callback
+package com.example.Paging.restaurants.callback
 
 interface OnFilterTypeClickListener {
     fun filterTypeClick(filterType : Int)

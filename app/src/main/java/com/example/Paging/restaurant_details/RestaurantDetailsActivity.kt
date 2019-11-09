@@ -1,4 +1,4 @@
-package com.example.acenutition.restaurant_details
+package com.example.Paging.restaurant_details
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,11 +8,11 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
-import com.example.acenutition.R
-import com.example.acenutition.restaurant_details.adapter.RestaurantDetailsAdapter
+import com.example.Paging.R
+import com.example.Paging.restaurant_details.adapter.RestaurantDetailsAdapter
 import com.example.mvvmpagingtutorial.data.api.AceNutritionClient
 import kotlinx.android.synthetic.main.activity_restaurant_details.*
-import com.example.acenutition.restaurant_details.RestaurantDetailsViewModel as RestaurantDetailsViewModel
+import com.example.Paging.restaurant_details.RestaurantDetailsViewModel as RestaurantDetailsViewModel
 
 class RestaurantDetailsActivity : AppCompatActivity() {
 

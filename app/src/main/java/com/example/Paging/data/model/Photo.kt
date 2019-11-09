@@ -1,11 +1,9 @@
-package com.example.acenutition.data.model
+package com.example.Paging.data.model
 
 
-import android.annotation.SuppressLint
 import android.os.Parcel
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
-import java.io.Serializable
 
 data class Photo(
     @SerializedName("photo")

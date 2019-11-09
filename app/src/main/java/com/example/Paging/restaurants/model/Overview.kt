@@ -1,4 +1,4 @@
-package com.example.acenutition.restaurants.model
+package com.example.Paging.restaurants.model
 
 data class Overview(
     val phoneNumber: String,

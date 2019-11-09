@@ -1,23 +1,13 @@
-package com.example.acenutition.gallery
+package com.example.Paging.gallery
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.example.acenutition.R
-import com.example.acenutition.data.model.Photo
-import com.example.acenutition.extension.helper.StartSnapHelper
-import com.example.acenutition.restaurant_details.adapter.RestaurantPhotoAdapter
+import com.example.Paging.R
+import com.example.Paging.data.model.Photo
+import com.example.Paging.restaurant_details.adapter.RestaurantPhotoAdapter
 import kotlinx.android.synthetic.main.activity_gallery.*
-import kotlinx.android.synthetic.main.rc_restaurant_photos.view.*
-import android.R.id
-import androidx.core.app.ComponentActivity.ExtraData
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import android.widget.Toolbar
-
 
 
 class GalleryActivity : AppCompatActivity() {

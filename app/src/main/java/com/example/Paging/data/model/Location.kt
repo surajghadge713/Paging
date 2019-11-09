@@ -1,4 +1,4 @@
-package com.example.acenutition.data.model
+package com.example.Paging.data.model
 
 
 import com.google.gson.annotations.SerializedName

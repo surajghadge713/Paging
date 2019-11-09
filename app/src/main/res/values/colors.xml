@@ -2,12 +2,14 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#673AB7</color>
 
 
-    <color name="five_start">#008577</color>
-    <color name="four_start">#FFEB3B</color>
-    <color name="three_start">#8BC34A</color>
-    <color name="two_start">#4CAF50</color>
-    <color name="one_start">#FF0000</color>
+
+    <color name="one_start">#D85359</color>
+    <color name="two_start">#EBC246</color>
+    <color name="three_start">#ACCB59</color>
+    <color name="four_start">#688236</color>
+    <color name="five_start">#428C82</color>
+    <color name="bar_border">#7D7D7D</color>
 </resources>

@@ -1,10 +1,9 @@
 package com.example.mvvmpagingtutorial.data.api
 
-import com.example.acenutition.data.model.RestaurantResponse
-import com.example.acenutition.data.model.RestaurantX
+import com.example.Paging.data.model.RestaurantResponse
+import com.example.Paging.data.model.RestaurantX
 import io.reactivex.Single
 import retrofit2.http.GET
-import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface AceNutritionService {

@@ -1,4 +1,4 @@
-package com.example.acenutition.restaurant_details.adapter
+package com.example.Paging.restaurant_details.adapter
 
 import android.content.Context
 import android.content.Intent
@@ -6,20 +6,17 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.*
-import com.example.acenutition.R
-import com.example.acenutition.data.model.Photo
-import com.example.acenutition.data.model.Review
-import com.example.acenutition.restaurant_details.model.Overview
-import com.example.acenutition.restaurant_details.model.Restaurant
+import com.example.Paging.R
+import com.example.Paging.data.model.Photo
+import com.example.Paging.data.model.Review
+import com.example.Paging.restaurant_details.model.Overview
+import com.example.Paging.restaurant_details.model.Restaurant
 import kotlinx.android.synthetic.main.rc_restaurant_overview.view.*
 import kotlinx.android.synthetic.main.rc_restaurant_photos.view.*
 import kotlinx.android.synthetic.main.rc_restaurant_reviews.view.*
-import com.example.acenutition.extension.helper.StartSnapHelper
-import androidx.recyclerview.widget.SnapHelper
-import com.example.acenutition.gallery.GalleryActivity
-import java.io.Serializable
+import com.example.Paging.extension.helper.StartSnapHelper
+import com.example.Paging.gallery.GalleryActivity
 
 
 class RestaurantDetailsAdapter(private val it: Restaurant) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

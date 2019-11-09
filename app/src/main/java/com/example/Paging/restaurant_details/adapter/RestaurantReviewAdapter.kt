@@ -1,4 +1,4 @@
-package com.example.acenutition.restaurant_details.adapter
+package com.example.Paging.restaurant_details.adapter
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -6,9 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.acenutition.R
-import com.example.acenutition.data.model.Review
-import kotlinx.android.synthetic.main.activity_restaurant_details.*
+import com.example.Paging.R
+import com.example.Paging.data.model.Review
 import kotlinx.android.synthetic.main.rc_review.view.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -24,9 +23,7 @@ import android.os.Build
 import androidx.annotation.ColorInt
 import android.graphics.drawable.Drawable
 import android.widget.TextView
-import androidx.constraintlayout.widget.Constraints.TAG
 import com.bumptech.glide.request.RequestOptions
-import kotlinx.android.synthetic.main.activity_restaurant_details.view.*
 import kotlin.math.roundToInt
 
 

@@ -1,4 +1,4 @@
-package com.example.acenutition.restaurants.adapter
+package com.example.Paging.restaurants.adapter
 
 import android.graphics.Color
 import android.util.Log
@@ -6,11 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.acenutition.R
-import kotlinx.android.synthetic.main.activity_main.view.*
+import com.example.Paging.R
 import kotlinx.android.synthetic.main.rc_filter_type_item.view.*
-import android.graphics.Color.parseColor
-import com.example.acenutition.restaurants.callback.OnFilterTypeClickListener
+import com.example.Paging.restaurants.callback.OnFilterTypeClickListener
 
 
 class BottomSheetFilterAdapter(

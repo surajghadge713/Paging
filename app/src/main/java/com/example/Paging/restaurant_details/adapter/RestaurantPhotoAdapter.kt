@@ -1,20 +1,14 @@
-package com.example.acenutition.restaurant_details.adapter
+package com.example.Paging.restaurant_details.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.acenutition.R
-import com.example.acenutition.data.model.Photo
-import com.example.acenutition.data.model.PhotoX
-import kotlinx.android.synthetic.main.activity_restaurant_details.*
+import com.example.Paging.R
+import com.example.Paging.data.model.Photo
+import com.example.Paging.data.model.PhotoX
 import kotlinx.android.synthetic.main.rc_photo.view.*
-import kotlinx.android.synthetic.main.rc_restaurant_overview.view.*
-import android.view.animation.AlphaAnimation
 import android.view.animation.Animation
 import android.view.animation.ScaleAnimation
 
@@ -67,6 +61,7 @@ class RestaurantPhotoAdapter(private val photoList: List<Photo>) :
 
             anim.duration = FADE_DURATION
             view.startAnimation(anim)
+            
         }
 
     }

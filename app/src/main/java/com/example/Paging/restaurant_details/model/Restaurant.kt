@@ -1,9 +1,7 @@
-package com.example.acenutition.restaurant_details.model
+package com.example.Paging.restaurant_details.model
 
-import com.example.acenutition.data.model.AllReviews
-import com.example.acenutition.data.model.Photo
-import com.example.acenutition.data.model.Review
-import com.example.acenutition.data.model.ReviewWrapper
+import com.example.Paging.data.model.AllReviews
+import com.example.Paging.data.model.Photo
 
 data class Restaurant(
     val restaurantDetails: RestaurantDetails,

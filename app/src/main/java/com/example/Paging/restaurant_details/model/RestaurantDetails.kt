@@ -1,4 +1,4 @@
-package com.example.acenutition.restaurant_details.model
+package com.example.Paging.restaurant_details.model
 
 data class RestaurantDetails(
     val restaurantUrl : String?,

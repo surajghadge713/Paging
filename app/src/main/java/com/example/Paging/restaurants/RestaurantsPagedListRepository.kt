@@ -1,11 +1,10 @@
-package com.example.acenutition.restaurants
+package com.example.Paging.restaurants
 
 import androidx.lifecycle.LiveData
 import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
-import com.example.acenutition.data.model.Restaurant
-import com.example.acenutition.data.repository.RestaurantDataSourceFactory
-import com.example.acenutition.data.repository.RestaurantsDataSource
+import com.example.Paging.data.model.Restaurant
+import com.example.Paging.data.repository.RestaurantDataSourceFactory
 import com.example.mvvmpagingtutorial.data.api.AceNutritionService
 import com.example.mvvmpagingtutorial.data.api.RESTAURANTS_PER_PAGE
 import io.reactivex.disposables.CompositeDisposable

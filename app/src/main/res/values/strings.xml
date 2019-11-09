@@ -13,4 +13,20 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
+    <string-array name="ratingColors">
+        <item>@color/one_start</item>
+        <item>@color/two_start</item>
+        <item>@color/three_start</item>
+        <item>@color/four_start</item>
+        <item>@color/five_start</item>
+    </string-array>
+
+    <integer-array name="ratingValues">
+        <item>1</item>
+        <item>10</item>
+        <item>23</item>
+        <item>141</item>
+        <item>107</item>
+    </integer-array>
+
 </resources>

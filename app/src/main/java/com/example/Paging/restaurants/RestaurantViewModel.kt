@@ -1,9 +1,9 @@
-package com.example.acenutition.restaurants
+package com.example.Paging.restaurants
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.paging.PagedList
-import com.example.acenutition.data.model.Restaurant
+import com.example.Paging.data.model.Restaurant
 import io.reactivex.disposables.CompositeDisposable
 
 class RestaurantViewModel(
