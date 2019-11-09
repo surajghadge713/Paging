@@ -1,4 +1,4 @@
-package com.example.acenutition
+package com.example.horizontalratingbar
 
 import org.junit.Test
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="HorizontalRatingBar">
+        <attr name="ratingColors" format="reference"/>
+        <attr name="ratingValues" format="reference"/>
+        <attr name="numOfBars" format="integer"/>
+    </declare-styleable>
+
+</resources>

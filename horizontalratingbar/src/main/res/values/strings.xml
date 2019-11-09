@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HorizontalRatingBar</string>
+
+    <string-array name="ratingColors">
+        <item>Color.RED</item>
+        <item>Color.BLUE</item>
+        <item>Color.CYAN</item>
+        <item>Color.GREEN</item>
+        <item>Color.MAGENTA</item>
+    </string-array>
+</resources>
